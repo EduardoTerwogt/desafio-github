@@ -15,6 +15,16 @@
     padding: 20px;
 
 }
+h1{
+    background-color: black;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    padding-top: 100px;
+    
+}
 .item{
     min-height: 200px;
     border-radius: 20px;
