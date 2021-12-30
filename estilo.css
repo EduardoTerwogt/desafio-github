@@ -30,8 +30,28 @@ h1{
 }
 .item{
     min-height: 200px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 5px;
+    animation-name: opening;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 1s;
+
+}
+@keyframes opening{
+    0%{
+        border-radius: 200px;
+        opacity: 0;
+        transform: scale(0);
+        
+    }
+  
+    100%{
+        border-radius: 30px;
+        opacity: 1;
+        transform: scale(1);
+    }
+
 }
 .item1{
     background-image: url(img/img_vertical2.jpg);
